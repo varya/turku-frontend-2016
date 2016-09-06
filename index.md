@@ -178,7 +178,7 @@ style: |
 ## Customer context
 {: .customer-context }
 
-###Does my website make sense for the customer right now?
+### Does my website make sense for the customer right now?
 {: .question }
 
 <style>
