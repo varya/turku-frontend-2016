@@ -258,7 +258,13 @@ style: |
 </style>
 
 ## Right way to use
-{: .shout}
+{: .shout .right-way }
+
+<style>
+.slide.right-way h2 {
+  font-size: 120px;
+}
+</style>
 
 ## What a little margin can do
 {: .before-after .no-title }
@@ -293,40 +299,33 @@ gives better understanding of what actually happened.
 ![](pictures/atomic-diffs/button-size/chrome~diff.png)
 {: .next }
 
-## Wrong margin
-{: .wrong-margin }
+## Alterated margin
+{: .alterated-margin }
 
-![](pictures/atomic-diffs/margin/chrome~ref.png){: .pic }
-
-![](pictures/atomic-diffs/margin/chrome~current.png){: .pic }
+![](pictures/atomic-diffs/margin/margin.png){: .pic }
 
 <style>
-.wrong-margin p {
+.alterated-margin p {
     margin: 0;
 }
-.wrong-margin .pic {
-    width: 620px;
+.alterated-margin .pic {
+    width: 820px;
 }
 </style>
 
-## Wrong margin
-{: .wrong-margin }
-
-![](pictures/atomic-diffs/margin/chrome~diff.png){: .pic }
-
 ## Icons
 
-### Missing icon font
+### Unlinked icon font
 ![](pictures/atomic-diffs/icon-font/chrome~ref.png)
 ![](pictures/atomic-diffs/icon-font/chrome~current.png)
 ![](pictures/atomic-diffs/icon-font/chrome~diff.png)
 
 <div class="next" markdown="1">
-### Wrong icon
+### Mixed icons
 
 ![](pictures/atomic-diffs/wrong-icon/chrome~ref.png)
 ![](pictures/atomic-diffs/wrong-icon/chrome~current.png)
-![](pictures/atomic-diffs/wrong-icon/chrome~diff.png){: .next }
+![](pictures/atomic-diffs/wrong-icon/chrome~diff.png)
 </div>
 
 ## Affected colors
@@ -590,7 +589,7 @@ The practises you did not dare to use
 Devs must be accurate but nothing checks the result.<br/><span class="nono next">No, code reviews don't.</span>
 
 <div class="next" markdown="1">
-###But visual regression testing does!
+### But visual regression testing does!
 {: .yesyes }
 
 * We feel safer
@@ -622,14 +621,14 @@ Devs must be accurate but nothing checks the result.<br/><span class="nono next"
 ## THANK YOU!
 {: .thanks }
 
-Varya Stepanova, SC5 Online<br/>
+Varya Stepanova<br/>
 [@varya_en](https://twitter.com/varya_en){: .twitter }
 
 ### The tool: [github.com/sc5/sc5-styleguide-visualtest](https://github.com/SC5/sc5-styleguide-visualtest)
 
 ### Working code: [github.com/varya/varya.github.com](http://git.io/visual-tests-demo)
 
-###Slides: [varya.me/helsinkijs-2015](http://varya.me/helsinkijs-2015/)
+### Slides: [varya.me/fromthefront-2016](http://varya.me/fromthefront-2016/)
 
 <style>
 .thanks h3 {
