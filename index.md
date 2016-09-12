@@ -84,7 +84,7 @@ style: |
     <object class="main-logo" data="themes/sc5/images/logo.min.svg#white" type="image/svg+xml"></object>
 </div>
 
-*Brought to you by&nbsp;[Varya&nbsp;Stepanova](http://varya.me/) and generated with&nbsp;[Jekyller](https://github.com/shower/jekyller)*
+*Brought to you by&nbsp;[Varya&nbsp;Stepanova](http://varya.me/), From The Front, 15th September 2016*
 {: .credits }
 
 <style>
@@ -92,13 +92,13 @@ style: |
 #Cover {
   background-image:url('pictures/cover.jpg');
   background-size: cover;
-  background-position: 0 -150px, center;
+  background-position: 0 0, center;
 }
 
 #Cover h2 {
   text-shadow: 7px 3px 7px rgba(0,0,0,0.5);
-  font-size: 45px;
-  margin-top: 260px;
+  font-size: 48px;
+  margin-top: 220px;
 }
 #Cover .sub {
   color: #ef4942;
@@ -111,16 +111,18 @@ style: |
   text-transform: lowercase;
 }
 #Cover .credits {
-    width: 270px;
-    text-align: left;
-    float: right;
+    margin-top: 105px;
 }
 #Cover .credits,
 #Cover .credits a {
-  font-size: 18px;
-  color: #000;
+  font-size: 20px;
+  color: #fff;
   font-family: 'Lora',sans-serif;
   font-style: italic;
+  text-shadow:
+    3px 2px 3px rgba(0,0,0,0.5),
+    -3px 2px 3px rgba(0,0,0,0.5),
+    10px -2px 17px rgba(0,0,0,0.9);
 }
 </style>
 
