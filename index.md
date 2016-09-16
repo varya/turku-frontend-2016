@@ -620,7 +620,7 @@ Devs must be accurate but nothing checks the result.<br/><span class="nono next"
 * Provide very stable UI
 * Work faster and do more
 
-## THANK YOU!
+## Grazie!
 {: .thanks }
 
 Varya Stepanova<br/>
