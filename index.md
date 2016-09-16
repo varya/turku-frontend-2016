@@ -442,9 +442,9 @@ Informative and easily navigable live style guide which
 npm install sc5-styleguide-visualtest
 ```
 
-![](/pictures/github-octocat.svg){: .github }
-![](/pictures/npm-logo.svg){: .npm }
-![](/pictures/gulp-logo.svg){: .gulp }
+![](pictures/github-octocat.svg){: .github }
+![](pictures/npm-logo.svg){: .npm }
+![](pictures/gulp-logo.svg){: .gulp }
 
 <style>
 
