@@ -84,7 +84,7 @@ style: |
     <object class="main-logo" data="themes/sc5/images/logo.min.svg#white" type="image/svg+xml"></object>
 </div>
 
-*Brought to you by&nbsp;[Varya&nbsp;Stepanova](http://varya.me/), From The Front, 15th September 2016*
+*Brought to you by&nbsp;[Varya&nbsp;Stepanova](http://varya.me/) from [SC5](http://sc5.io), 26th October 2016*
 {: .credits }
 
 <style>
@@ -630,7 +630,7 @@ Varya Stepanova<br/>
 
 ### Working code: [github.com/varya/varya.github.com](http://git.io/visual-tests-demo)
 
-### Slides: [varya.me/fromthefront-2016](http://varya.me/fromthefront-2016/)
+### Slides: [varya.me/turku-frontend-2016](http://varya.me/turku-frontend-2016/)
 
 <style>
 .thanks h3 {
